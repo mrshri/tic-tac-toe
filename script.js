@@ -22,9 +22,11 @@ boxes.forEach((box) => {
   box.addEventListener("click", () => {
     // console.log("object");
     if (turnO) {
+      // player O
       box.innerText = "O";
       turnO = false;
     } else {
+      //player X
       box.innerText = "X";
       turnO = true;
     }
